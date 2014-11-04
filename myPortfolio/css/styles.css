@@ -58,7 +58,8 @@ div .container {
 	
 	width:100%;
 	height:auto;
-	margin-top: 20px;
+	border-bottom: 3px solid black;
+
 
 
 }
@@ -72,5 +73,13 @@ margin-right: 20px;
 .page {
 	width:85%;
 	margin: 0px auto;
+}
+
+div .nav {
+	height:120px;
+	background: #E0E0E0;
+	padding-bottom: 20px;
+	padding-top: 10px; 
+	border-bottom:3px solid black;
 }
 
