@@ -59,6 +59,8 @@ div .container {
 	width:100%;
 	height:auto;
 	border-bottom: 3px solid black;
+	position: relative;
+	left: 10px;
 
 
 
