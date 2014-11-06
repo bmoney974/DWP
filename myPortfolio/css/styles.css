@@ -15,13 +15,21 @@ div .container {
 }
 
 .feature-img {
-	border: 1px solid black;
+	
 	width:390px;
-	height:400px;
+	height:400px; 
+
+}
+
+.bizConnect {
+	display:block;
+	margin: 0px auto;
+
 }
 
 .feat_sect {
 	margin-top: 40px;
+	padding: 20px;
 }
 
 .feature_text {
@@ -88,5 +96,56 @@ div .nav {
 .botom_pics {
 
 	background: #E8E8E8;
+}
+
+.no3 {
+	margin-top: 40px;
+	
+
+
+}
+
+@media screen and (max-width: 991px) {
+	.bizConnect {
+		display: block;
+		width: 100%;
+		margin-left:auto;
+		margin-right: auto;
+
+	}
+
+	.feature-img {
+		display: block;
+		width: 100%;
+		height:auto;
+		margin-left:auto;
+		margin-right: auto;
+	}
+
+
+}
+
+@media screen and (max-width: 900px) {
+	.bizConnect {
+
+	}
+
+	.page {
+		width:100%;
+	}	
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+	.no3 {
+		margin-left: 20px;
+	}
+
+	.no3 h3 {
+		display:block;
+	}
+
 }
 
